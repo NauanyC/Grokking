@@ -1,0 +1,5 @@
+2.1 => List
+2.2 => List
+2.3 => Array
+2.4 => The downside of using arrays is that whenever I add new users I have to potentially move the array, if I don't have free memory space after the last slot.
+2.5 => This new data structure would be faster than both for reading. For writing it would be slower than linked lists, but faster than arrays. 
