@@ -1,0 +1,2 @@
+3.1 => The function greet2 will be executed with the name variable holding the value "Maggie"; once greet2 finishes we'll continue the execution of greet.
+3.2 => It overflows!

@@ -33,3 +33,18 @@ Algorithm speed is not measured in seconds, but in number of operations. The imp
         * Insertion: O(1)
         * Read:      O(n)
         * Read:      O(1)
+
+## Recursion
+*"Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer."*
+
+A recursive function has two cases:
+    * Base case: desired goal, when recursion stops.
+    * Recursive case: when the function calls itself.
+
+## The callstack
+
+Like a block of sticky notes; it has two operations: 
+    * Push: add an item to the top of the stack.
+    * Pop: remove an item from the top of the stack.
+
+
