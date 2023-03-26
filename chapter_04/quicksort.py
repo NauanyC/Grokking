@@ -1,17 +1,10 @@
-def findSmallest(arr):
-    smallest = arr[0]
-    smallest_index = 0
-    for i in range(1, len(arr)):
-        if arr[i] < smallest:
-            smallest = arr[i]
-            smallest_index = i
-    return smallest_index
+def quicksort(array):
+    if len(array) < 2:
+        return array
+    else:       
+        pivot = array[0]
+        left_arr = [i for i in array[1:] if i <= pivot]
+        right_arr = [i for i in array[1:] if i > pivot]      
+        return quicksort(left_arr) + [pivot] + quicksort(right_arr)
 
-def selectionSort(arr):
-    newArr = []
-    for i in range(len(arr)):
-        smallest = findSmallest(arr)
-        newArr.append(arr.pop(smallest))
-    return newArr
-
-print(selectionSort([5,3,6,2,122,32,2,3]))
+print(quicksort([3,65,9,11, 1]))
