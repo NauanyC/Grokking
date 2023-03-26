@@ -47,4 +47,13 @@ Like a block of sticky notes; it has two operations:
     * Push: add an item to the top of the stack.
     * Pop: remove an item from the top of the stack.
 
+## Divide and conquer
 
+When one algorithm won't do, use many! Steps of divide and conquer, a recursive technique:
+
+1. Find base case. 
+3. Apply recursivity until you arrive at the base case.
+
+### Example: MDC of 1680 per 640.
+
+=> Recursively apply Euclide's theorem.
